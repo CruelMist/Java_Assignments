@@ -1,9 +1,6 @@
-class Vehicle
+abstract class Vehicle
 {
-    void Start()
-    {
-        System.out.println("Start");
-    }
+    abstract void Start();
     void Stop()
     {
         System.out.println("Stop");

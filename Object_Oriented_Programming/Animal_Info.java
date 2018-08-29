@@ -3,13 +3,14 @@ class Animal
     String breed,color;
     void Speak()
     {
-
+        System.out.println("Animal's Voice");
     }
 }
 class Dog extends Animal
 {
     void Speak()
     {
+        System.out.println("Dog Barks");
         breed="Husky";
         color="Black";
     }
@@ -18,6 +19,7 @@ class Cat extends Animal
 {
     void Speak()
     {
+        System.out.println("Cat Meows");
         breed="Khao Manee";
         color="White";
     }
